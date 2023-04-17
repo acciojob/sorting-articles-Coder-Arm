@@ -13,9 +13,9 @@ li{
 	margin: 15px 0;
 	text-align: left;
 }
-li:first-of-type{
+ul li:first-of-type{
 	padding-top: 10px;
 }
-li:last-of-type{
+ul li:last-of-type{
 	padding-bottom: 10px;
 }

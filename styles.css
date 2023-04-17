@@ -2,15 +2,20 @@
 body{
 	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCZlf5lc5tX-0gY-y94pGS0mQdL-D0lCH2OQ&usqp=CAU);
 }
-#band{
+#bands{
 	width: 40%;
 	background-color: white;
 	margin: auto;
-	padding-top: 2px;
-	padding-bottom: 2px; 
+	
 }
 li{
 	list-style: square;
 	margin: 15px 0;
 	text-align: left;
+}
+li:first-of-type{
+	padding-top: 10px;
+}
+li:last-of-type{
+	padding-bottom: 10px;
 }
